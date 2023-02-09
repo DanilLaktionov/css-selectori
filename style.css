@@ -1,152 +1,152 @@
-*{
+@import url(https://allfont.net/allfont.css?fonts=roboto-regular);
+
+.body1{
+    font-family: 'Roboto Regular', arial;
+}
+
+* {
     transition: all .1s ease-in;
     margin: auto;
 }
 
-/*добавить бифор и афтер вместо (); добавить картинку при нажатии актив на инпут*/
-
-header{
-    background-color:#4A4F56 ;
+header {
+    background-color: #4A4F56;
     position: relative;
-    text-align:center;
+    text-align: center;
 }
 
-body{
-    background-color:#3B3F45 ;
+body {
+    background-color: #3B3F45;
 }
-   
 
-main{
-    padding-top:20px;
+
+main {
+    padding-top: 20px;
     position: relative;
-    padding-left:auto;
+    padding-left: auto;
     padding-right: auto;
 }
 
-h1{
-    color:#FF8984;
+h1 {
+    color: #FF8984;
 }
 
-h3{
-    color:#FF8984;
+h3 {
+    color: #FF8984;
 }
 
-strong{
-    font-weight:bold;
+
+.max{
+    font-weight: 400;
+    font-size: 18px;
 }
 
-.pickles{
-    background-color:#88839E ;
+.min{
+    font-weight: 400;
+    font-size: 11px;
+    position: relative;
+    margin-left: 3px;
+}
+
+.main{
+    position: absolute;
+}
+
+.pickles {
+    background-color: #88839E;
     width: 534px;
     padding-top: 12px;
     padding-bottom: 14px;
     padding-left: 12px;
-    color:#fff;
-}
-/*----apples s active----*/
-.apples{
-    background-color:#88839E ;
-    width: 534px;
-    padding-top: 12px;
-    padding-bottom: 14px;
-    padding-left: 12px;
-    color:#fff;
+    color: #fff;
 }
 
-.oranges{
-    background-color:#88839E ;
+
+.apples {
+    background-color: #88839E;
     width: 534px;
     padding-top: 12px;
     padding-bottom: 14px;
     padding-left: 12px;
-    color:#fff;
-}
-/*-----plates s hover------*/
-.plates{
-    background-color:#88839E ;
-    width: 534px;
-    padding-top: 12px;
-    padding-bottom: 14px;
-    padding-left: 12px;
-    color:#fff;
+    color: #fff;
 }
 
-.bentos{
-    background-color:#88839E ;
+.oranges {
+    background-color: #88839E;
     width: 534px;
     padding-top: 12px;
     padding-bottom: 14px;
     padding-left: 12px;
-    
-    color:#fff;
-}
-/*----sake s active----*/
-.sake{
-    background-color:#88839E;
-    width: 534px;
-    padding-top: 12px;
-    padding-bottom: 14px;
-    padding-left: 12px;
-    color:#fff;
-    
+    color: #fff;
 }
 
-.h3Footer{
-    background-color:#4A4F56 ;
+.plates {
+    background-color: #88839E;
     width: 534px;
-    margin-top:45px;
     padding-top: 12px;
     padding-bottom: 14px;
     padding-left: 12px;
-    color:#FF8984;
-    text-align:center;
-    
+    color: #fff;
 }
 
-[type]{
+.bentos {
+    background-color: #88839E;
+    width: 534px;
+    padding-top: 12px;
+    padding-bottom: 14px;
+    padding-left: 12px;
+
+    color: #fff;
+}
+
+.sake {
+    background-color: #88839E;
+    width: 534px;
+    padding-top: 12px;
+    padding-bottom: 14px;
+    padding-left: 12px;
+    color: #fff;
+
+}
+
+.h3Footer {
+    background-color: #4A4F56;
+    width: 534px;
+    margin-top: 45px;
+    padding-top: 12px;
+    padding-bottom: 14px;
+    padding-left: 12px;
+    color: #FF8984;
+    text-align: center;
+
+}
+
+[type] {
     margin-right: 16px;
     width: 19px;
     height: 19px;
 }
 
-small::before{
-    content:'(';
-
+.strong {
+    font-weight: bold;
 }
 
-small::after{
-    content:')'
-}
-
-div:hover{
-    background-color:#625E77 ;
+div:hover {
+    background-color: #625E77;
     border-top: solid #fff 3px;
     border-bottom: solid #fff 3px;
-    
-   }
 
-div input:checked+label{
-    text-decoration:line-through;
+}
+
+input:checked+span{
+    text-decoration: line-through;
     color: #9b96ac;
-   
-    
+
+
 }
 
 
 
-div:nth-child(even){
+div:nth-child(even) {
     background: #7A7593;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
